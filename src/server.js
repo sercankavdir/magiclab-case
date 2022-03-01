@@ -7,6 +7,6 @@ const route = require("./route");
 const app = express();
 app.use("/", route);
 
-app.listen(3000, () => {
-  console.log("Server is up on port 3000.");
+app.listen(8080, () => {
+  console.log("Server is up on port 8080.");
 });
