@@ -18,6 +18,10 @@ docker run -p 8080:8080 -d magiclab
 
 #### Postman Endpoints
 
+##### NOTE
+
+Save and read endpoints protected by authentication mechanism. Make sure to provide generated token at the headers section x-access-token area after login.
+
 ```http
    POST /save
 ```
